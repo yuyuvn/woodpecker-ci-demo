@@ -1,0 +1,9 @@
+when:
+  - event: manual
+
+steps:
+  - name: test
+    image: debian
+    commands:
+      - echo "hoge"
+      
